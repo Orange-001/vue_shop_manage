@@ -1,0 +1,24 @@
+
+一、登录业务技术点
+  1、cookie、session、token
+    http 是无状态的
+    通过 cookie 在客户端记录状态（不存在跨域时使用）
+    通过 session 在服务器端记录状态（不存在跨域时使用）
+    通过 token 方式维持状态（存在跨域时使用）
+  2、token步骤
+    1）前端登录页面输入用户名和密码进行登录，发送请求
+    2）服务器验证通过之后生成该用户的 token 并返回
+    3）客户端存储该 token
+    4）后续所有的请求都携带该 token 发送请求
+    5）服务器端验证 token 是否通过
+    6）通过则发送数据到前端
+二、git的使用
+  1、git status获取状态
+  2、git checkout -b login  创建切换到login分支（本地）
+  3、git branch 查看分支
+  4、合并分支
+    a git checkout master 切换分支
+    b git merge login 合并分支
+    c git push -u origin login 将本地login分支推送到git上
+  5、我的GitHub令牌：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
+

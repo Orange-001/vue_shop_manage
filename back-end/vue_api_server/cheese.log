@@ -1,0 +1,8 @@
+[2021-10-10T14:32:08.229] [DEBUG] cheese - login => username:1,password:2
+[2021-10-10T14:32:08.250] [DEBUG] cheese - 1
+[2021-10-10T14:32:08.267] [DEBUG] cheese - null
+[2021-10-10T14:32:08.268] [DEBUG] cheese - null
+[2021-10-10T14:32:20.020] [DEBUG] cheese - login => username:admin,password:123456
+[2021-10-10T14:32:20.020] [DEBUG] cheese - admin
+[2021-10-10T14:32:20.025] [DEBUG] cheese - null
+[2021-10-10T14:32:20.025] [DEBUG] cheese - null
